@@ -1,0 +1,22 @@
+UI/UX Guidelines for E-Shop Checkout
+
+Branding & Colors
+- Primary buttons must use hexadecimal #2b9348 with white text for high contrast.
+- Error states must use red text (#d90429) and be placed immediately below the relevant field.
+- Success banners must use green backgrounds with clear success messaging.
+
+Forms & Validation
+- Required fields: Full Name, Email, Shipping Address.
+- Email field must validate against standard email pattern; invalid entries display inline error text.
+- Error messages must remain visible until the input becomes valid.
+- Inline errors should have aria role attributes when feasible for accessibility.
+
+Cart & Pricing Display
+- Subtotal, shipping, discount, and grand total must be clearly separated with bold labels.
+- Quantity inputs must not allow values less than 1; if a user enters 0, reset to 1.
+- Discount feedback must appear immediately when a code is entered.
+
+Interaction Feedback
+- "Pay Now" button must be disabled after successful submission to prevent duplicate orders.
+- "Payment Successful!" banner should appear with role="status" for screen readers.
+- All interactive controls must be reachable via keyboard navigation.

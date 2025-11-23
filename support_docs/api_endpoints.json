@@ -1,0 +1,22 @@
+{
+  "endpoints": {
+    "POST /apply_coupon": {
+      "code": "string",
+      "description": "Applies a discount code to the current cart totals. Returns success flag and discount amount."
+    },
+    "POST /submit_order": {
+      "fullName": "string",
+      "email": "string",
+      "address": "string",
+      "shipping": "standard|express",
+      "payment": "credit|paypal",
+      "items": [
+        {
+          "id": "string",
+          "quantity": "integer"
+        }
+      ],
+      "total": "number"
+    }
+  }
+}
