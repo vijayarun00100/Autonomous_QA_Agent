@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env.local
+.env.*
+!.env.example
+.DS_Store
+node_modules/
+streamlit/.streamlit/secrets.toml
+data/uploads/
+data/chroma/
+.local_cache/
