@@ -137,7 +137,7 @@ Record a 5–10 minute walkthrough demonstrating:
 3. Generating test cases for a feature.
 4. Selecting a test case and producing Selenium code.
 
-> Include the final video at `demo/demo.mp4` or upload it separately per submission requirements.
+> [Include the final video at `demo/demo.mp4` or upload it separately per submission requirements.](https://drive.google.com/file/d/1vhVWMaGLdVG794HDOwFI9pIA3iFeDp_I/view?usp=sharing)
 
 ---
 
